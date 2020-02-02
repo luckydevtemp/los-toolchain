@@ -91,6 +91,9 @@ $(MAIN_DIR)/toolchain-build-stamp:
 	@$(MAKE) fpc
 	@$(MAKE) cleanall
 	@echo "Build" > $(MAIN_DIR)/toolchain-build-stamp
+	@echo
+	@echo "O Toolchain foi construído com sucesso!."
+	@echo
 
 
 # ToolChain
