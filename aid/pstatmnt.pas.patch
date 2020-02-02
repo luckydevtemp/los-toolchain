@@ -1,0 +1,4 @@
+578c578
+<                 typecheckpass(tempnode);
+---
+>                 typecheckpass(tnode(tempnode));

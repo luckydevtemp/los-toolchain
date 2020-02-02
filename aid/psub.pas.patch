@@ -1,0 +1,4 @@
+619c619
+<         do_firstpass(newblock);
+---
+>         do_firstpass(tnode(newblock));

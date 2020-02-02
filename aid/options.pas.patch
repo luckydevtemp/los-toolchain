@@ -1,0 +1,4 @@
+893c893
+<                      unicodemapping:=loadunicodemapping(More,More+'.txt');
+---
+>                      unicodemapping:=loadunicodemapping(More,More+'.txt',0); {lucky: adicionei o campo 0}                     

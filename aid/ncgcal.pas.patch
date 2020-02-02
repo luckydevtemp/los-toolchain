@@ -1,0 +1,8 @@
+937c937
+<            secondpass(callinitblock);
+---
+>            secondpass(tnode(callinitblock));
+1244c1244
+<            secondpass(callcleanupblock);
+---
+>            secondpass(tnode(callcleanupblock));

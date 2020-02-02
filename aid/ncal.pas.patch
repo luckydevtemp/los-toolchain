@@ -1,0 +1,32 @@
+741c741
+<                      typecheckpass(block);
+---
+>                      typecheckpass(tnode(block));
+2858,2859c2858,2859
+<              typecheckpass(callinitblock);
+<              dosimplify(callinitblock);
+---
+>              typecheckpass(tnode(callinitblock));
+>              dosimplify(tnode(callinitblock));
+2863,2864c2863,2864
+<              typecheckpass(callcleanupblock);
+<              dosimplify(callcleanupblock);
+---
+>              typecheckpass(tnode(callcleanupblock));
+>              dosimplify(tnode(callcleanupblock));
+2901c2901
+<            firstpass(callinitblock);
+---
+>            firstpass(tnode(callinitblock));
+2920c2920
+<            firstpass(callcleanupblock);
+---
+>            firstpass(tnode(callcleanupblock));
+3379,3381c3379,3381
+<         typecheckpass(inlineblock);
+<         dosimplify(inlineblock);
+<         firstpass(inlineblock);
+---
+>         typecheckpass(tnode(inlineblock));
+>         dosimplify(tnode(inlineblock));
+>         firstpass(tnode(inlineblock));
