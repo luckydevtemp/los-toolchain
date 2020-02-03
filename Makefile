@@ -94,6 +94,9 @@ $(MAIN_DIR)/toolchain-build-stamp:
 	@echo
 	@echo "O Toolchain foi construído com sucesso!."
 	@echo
+	@echo "Nota: O FPC utilizado para construção do Toolchain não é necessário para a construção do LOS."
+	@echo "      Portanto ele pode ser removido usando o gerenciador de pacotes caso não seja mais utilizado."
+	@echo
 
 
 # ToolChain
