@@ -1,0 +1,16 @@
+125c125
+<               result := foreachnode(procmethod,tcallnode(n).callinitblock,f,arg) or result;
+---
+>               result := foreachnode(procmethod,tnode(tcallnode(n).callinitblock),f,arg) or result;
+128c128
+<               result := foreachnode(procmethod,tcallnode(n).callcleanupblock,f,arg) or result;
+---
+>               result := foreachnode(procmethod,tnode(tcallnode(n).callcleanupblock),f,arg) or result;
+204c204
+<               result := foreachnodestatic(procmethod,tcallnode(n).callinitblock,f,arg) or result;
+---
+>               result := foreachnodestatic(procmethod,tnode(tcallnode(n).callinitblock),f,arg) or result;
+207c207
+<               result := foreachnodestatic(procmethod,tcallnode(n).callcleanupblock,f,arg) or result;
+---
+>               result := foreachnodestatic(procmethod,tnode(tcallnode(n).callcleanupblock),f,arg) or result;

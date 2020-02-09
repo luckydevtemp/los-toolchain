@@ -1,0 +1,8 @@
+419,421c419,421
+<             do_firstpass(initcode);
+<             do_firstpass(calccode);
+<             do_firstpass(deletecode);
+---
+>             do_firstpass(tnode(initcode));
+>             do_firstpass(tnode(calccode));
+>             do_firstpass(tnode(deletecode));

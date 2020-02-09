@@ -1,0 +1,8 @@
+513c513
+<         cand_cnt:=candidates.choose_best(operpd,false);
+---
+>         cand_cnt:=candidates.choose_best(tabstractprocdef(operpd),false);
+659c659
+<         cand_cnt:=candidates.choose_best(operpd,false);
+---
+>         cand_cnt:=candidates.choose_best(tabstractprocdef(operpd),false);

@@ -1,0 +1,8 @@
+404c404
+<         { Symbols }
+---
+>         { SymbolsImageBase }
+1504c1504
+<         val(avalue,ImageBase,code);
+---
+>         val(avalue,FImageBase,code);
